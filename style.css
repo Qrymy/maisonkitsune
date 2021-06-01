@@ -43,6 +43,11 @@
   padding: 0 5px;
 }
 
+.left-side-container {
+  display: flex;
+  height: 100%;
+}
+
 .hamburger {
   width: 50px;
   height: 45px;
@@ -110,6 +115,27 @@
 
   .logo-container {
     width: 180px;
+  }
+
+  .header-nav-container {
+    display: block;
+    height: 100%;
+    margin-left: 55px;
+  }
+
+  .header-nav {
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .header-nav-link {
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: black;
+    padding: 0 15px;
+    display: block;
   }
 
   .header-buttons-container {
