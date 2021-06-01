@@ -1,0 +1,11 @@
+{
+  "name": "maisonkitsune",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Qrymy/maisonkitsune.git",
+  "author": "Qrymy <regist@qry.mx>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}
