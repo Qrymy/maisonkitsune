@@ -5,7 +5,67 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>hello!</div>
-    <div>Hello@</div>
+    <header class="header">
+      <!-- ハンバーガー -->
+      <button class="hamburger">
+        <span class="hamburger-line first"></span>
+        <span class="hamburger-line second"></span>
+        <span class="hamburger-line third"></span>
+      </button>
+      <!-- ロゴ -->
+      <a href="#" class="logo-container">
+        <h1 class="logo">
+          <img src="assets/logo.svg" alt="Maison Kitsune" class="logo-image" />
+        </h1>
+      </a>
+      <!-- カートボタン -->
+      <button class="cart">
+        <img src="assets/cart.svg" alt="Cart" class="cart-image" />
+      </button>
+      <!-- ナビゲーション -->
+      <nav class="header-nav-container">
+        <ul class="header-nav">
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Man</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Woman</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Café</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Musique</a>
+          </li>
+          <li class="header-nav-item">
+            <a href="#" class="header-nav-link">Events</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ボタン類 -->
+      <ul class="header-buttons-container">
+        <li class="header-button-item">
+          <button>
+            <img src="assets/search.svg" alt="Search" />
+          </button>
+          <span></span>
+        </li>
+        <li class="header-button-item currency">
+          <button>
+            <span>JP - ¥</span>
+          </button>
+        </li>
+        <li class="header-button-item">
+          <button>
+            <img src="assets/person.svg" alt="Profile" />
+          </button>
+        </li>
+        <li class="header-button-item">
+          <button>
+            <img src="assets/cart.svg" alt="Cart" />
+          </button>
+        </li>
+      </ul>
+    </header>
   </body>
 </html>
